@@ -8,8 +8,7 @@ For example, the current version of this script imagines a scenario where the VL
 
 Ordinarily, this would be a tedious, time-consuming process that’s prone to unpredictable human error. This script aims to remove that by allowing engineers at any level of experience with automation by removing the logical, programmatic layer and just letting them update a simple data file.
 
-![script]
-(https://giphy.com/embed/1yjq26jbvaF47tmjWm)
+![
  
 This script can loop over multiple switches, switch stacks, and even multiple IDFs.
 
@@ -17,8 +16,7 @@ This script can loop over multiple switches, switch stacks, and even multiple ID
 ![Before](https://raw.githubusercontent.com/pduffman004/cisco_switchport_config/master/static/before.png)
 
 ### After
-![After]
-(https://github.com/pduffman004/cisco_switchport_config/blob/master/static/after.png?raw=true)
+![After](https://raw.githubusercontent.com/pduffman004/cisco_switchport_config/master/static/after.png)
 
 This script can also be modified to audit other switch port configurations, like ensuring access ports have “spanning-tree bpduguard enable” or even to check whether ACLs are applied for SSH access to the devices.
 
