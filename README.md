@@ -8,7 +8,7 @@ For example, the current version of this script imagines a scenario where the VL
 
 Ordinarily, this would be a tedious, time-consuming process that’s prone to unpredictable human error. This script aims to remove that by allowing engineers at any level of experience with automation by removing the logical, programmatic layer and just letting them update a simple data file.
 
-![
+![script](https://raw.githubusercontent.com/pduffman004/cisco_switchport_config/master/static/script.gif)
  
 This script can loop over multiple switches, switch stacks, and even multiple IDFs.
 
