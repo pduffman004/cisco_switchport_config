@@ -22,4 +22,3 @@ This script can also be modified to audit other switch port configurations, like
 
   
 A more technical explanation can be found in the [documentation](https://github.com/pduffman004/cisco_switchport_config/blob/master/doc/documentation.md).
-> Written with [StackEdit](https://stackedit.io/).
