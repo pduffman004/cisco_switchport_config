@@ -1,0 +1,17 @@
+vlan {{ users_vlan }}
+name users
+vlan {{ voice_vlan }}
+name voice
+vlan {{ video_vlan }}
+name video
+
+{% for interface in interface_list %}
+{{ interface['name'] }}
+{% if interface['type'] == 'user' %}
+switchport access vlan {{ users_vlan }}
+switchport voice vlan {{ voice_vlan }}
+{% elif interface['type'] == 'video' %}
+switchport access vlan {{ video_vlan }}
+switchport voice vlan {{ voice_vlan }}
+{% endif %}
+{% endfor %}

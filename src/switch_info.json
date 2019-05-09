@@ -1,0 +1,31 @@
+{
+  "floors": [
+    {"floor_num": "1",
+      "current_user_vlan": "10",
+      "current_voice_vlan": "11",
+      "current_video_vlan": "12",
+      "new_user_vlan": "20",
+      "new_voice_vlan": "21",
+      "new_video_vlan": "22",
+      "switches": [
+        {"hostname": "switch1", "mgmt_ip": "10.0.0.1"},
+        {"hostname": "switch2", "mgmt_ip": "10.0.0.2"}
+
+      ]
+    },
+    {"floor_num": "2",
+      "current_user_vlan": "30",
+      "current_voice_vlan": "31",
+      "current_video_vlan": "32",
+      "new_user_vlan": "400",
+      "new_voice_vlan": "41",
+      "new_video_vlan": "42",
+      "switches": [
+        {"hostname": "switch1", "mgmt_ip": "10.0.1.1"},
+        {"hostname": "switch2", "mgmt_ip": "10.0.1.2"}
+
+      ]
+    }
+
+  ]
+}
