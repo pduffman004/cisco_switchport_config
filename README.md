@@ -6,7 +6,7 @@ This script is designed to identify switch ports with a certain configuration an
 
 For example, the current version of this script imagines a scenario where the VLANs for switch ports needs to be changed from their current VLAN to a new one.
 
-Ordinarily, this would be a tedious, time-consuming process that’s prone to unpredictable human error. This script aims to remove that by allowing engineers at any experience level with automation to update a simple data file and let them focus on other tasks.
+Ordinarily, this would be a tedious, time-consuming process that’s prone to unpredictable human error. This script aims to remove that by allowing engineers at any level of experience with automation by removing the logical, programmatic layer and just letting them update a simple data file.
 
  <iframe src="https://giphy.com/embed/1yjq26jbvaF47tmjWm" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>  
  
