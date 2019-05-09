@@ -6,7 +6,7 @@ This script is designed to identify switch ports with a certain configuration an
 
 For example, the current version of this script imagines a scenario where the VLANs for switch ports needs to be changed from their current VLAN to a new one.
 
-Ordinarily, this would be a tedious, time-consuming process that’s prone to unpredictable human error. This script aims to remove that by allowing engineers at any level of experience with automation by removing the logical, programmatic layer and just letting them update a simple data file.
+Ordinarily, this would be a tedious, time-consuming process that’s prone to unpredictable human error. This script aims to eliminate that by allowing engineers at any level of experience to assist with automation by removing the logical, programmatic layer and just letting them update a simple data file.
 
 ![script](https://raw.githubusercontent.com/pduffman004/cisco_switchport_config/master/static/script.gif)
  
