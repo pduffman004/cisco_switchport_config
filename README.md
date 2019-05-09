@@ -21,5 +21,5 @@ This script can loop over multiple switches, switch stacks, and even multiple ID
 This script can also be modified to audit other switch port configurations, like ensuring access ports have “spanning-tree bpduguard enable” or even to check whether ACLs are applied for SSH access to the devices.
 
   
-A more technical explanation can be found in the documentation.
+A more technical explanation can be found in the [documentation](https://github.com/pduffman004/cisco_switchport_config/blob/master/doc/documentation.md).
 > Written with [StackEdit](https://stackedit.io/).
