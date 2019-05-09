@@ -21,8 +21,8 @@
       "new_voice_vlan": "41",
       "new_video_vlan": "42",
       "switches": [
-        {"hostname": "switch1", "mgmt_ip": "10.0.1.1"},
-        {"hostname": "switch2", "mgmt_ip": "10.0.1.2"}
+        {"hostname": "switch3", "mgmt_ip": "10.0.1.1"},
+        {"hostname": "switch4", "mgmt_ip": "10.0.1.2"}
 
       ]
     }
