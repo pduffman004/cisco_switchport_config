@@ -83,7 +83,7 @@ for floor in range(len(config_dict["floors"])):
                                         video_vlan=new_video_vlan,
                                         )
             # Print config changes that will be sent to switch.
-            print('The following commands will be sent to script (loading):')
+            print('The following commands will be sent to switch (loading):')
             print(config_text)
             # Print napalm net changes.
             print('Loading net changes (this may take a few minutes)...')
