@@ -16,3 +16,20 @@ Next, the list of interfaces that need to be re-configured is passed through a J
 ![jinja template](https://raw.githubusercontent.com/pduffman004/cisco_switchport_config/master/static/jinja_template.png)
 
 The configuration changes compiled using the Jinja template are finally passed through to the Switch using Napalm and the net changes are printed to the console so that the tech can approve or discard the changes before they're committed.
+
+## Installation and Prerequisites
+
+Depending on the current configuration of the switches, you may need to enter the following commands manually on the switches to ensure running the script is successful.
+
+`aaa authorization exec default none`
+`ip scp server enable`
+
+To run the script from your local machine, clone the repo. You will either need to have Python installed and/or have an IDE. From either an IDE or your machine's native terminal, move to the "src" directory. To install all the necessary Python modules, enter the following command:
+
+`pip3 install -r requirements.txt`
+
+Once the modules have been installed, you should be all set to run the script:
+
+`python3 asw_config.py`
+
+The script in its current state assumes Active Directory credentials are normally used to connect to the CLI of the switches via SSH. It therefore asks for your AD credentials and the enable password set on the switch. As the script progresses, it will show the configuration commands that will be sent to the script along with the net changes before asking you to commit these changes.
