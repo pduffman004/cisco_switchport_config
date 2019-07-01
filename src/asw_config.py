@@ -13,8 +13,7 @@ enable_pwd = getpass('Enable pwd: ')
 
 # Read switch information from json file.
 with open('switch_info.json') as f_obj:
-    config_data = f_obj.read()
-    config_dict = json.loads(config_data)
+    config_dict = json.load(f_obj)
 
 # Iterate over floors/IDFs listed in json file to gather current & new vlans.
 for floor in range(len(config_dict["floors"])):
